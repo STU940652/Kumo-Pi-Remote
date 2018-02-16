@@ -32,6 +32,10 @@ class kumoManager (kumo.Client):
                 self.namesSrc[i] = name
 
     def setChannel (self, destination, source):
+        """
+        destination:    1 based index of destination
+        source:         1 based index of source
+        """
         if self.online:
             return self.setParameter('eParamID_XPT_Destination%i_Status' %  int(destination) , str(source))
 
