@@ -1,0 +1,1364 @@
+Beginning demo. Pausing between actions for readability.
+Current firmware version is:  3.1.0.7
+
+These are all the parameters which are visible to the API
+
+eParamID_Status: description missing
+(200, u'0')
+eParamID_NetworkCommand: description missing
+(200, u'0')
+eParamID_NetworkState: description missing
+(200, u'3')
+eParamID_XPT_Destination1_Status: The value of this parameter defines which source is connected to destination 1
+(200, u'1')
+eParamID_XPT_Destination1_Locked: Defines whether destination 1 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination1_Line_1: Defines the text that appears on the top line of the destination 1 button
+(200, u'SWTCHR')
+eParamID_XPT_Destination1_Line_2: Defines the text that appears on the bottom line of the destination 1 button
+(200, u'1')
+eParamID_XPT_Destination1_ButtonColor: Defines the color of the destination 1 button
+(200, u'0')
+eParamID_XPT_Destination1_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination2_Status: The value of this parameter defines which source is connected to destination 2
+(200, u'2')
+eParamID_XPT_Destination2_Locked: Defines whether destination 2 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination2_Line_1: Defines the text that appears on the top line of the destination 2 button
+(200, u'SWTCHR')
+eParamID_XPT_Destination2_Line_2: Defines the text that appears on the bottom line of the destination 2 button
+(200, u'2')
+eParamID_XPT_Destination2_ButtonColor: Defines the color of the destination 2 button
+(200, u'0')
+eParamID_XPT_Destination2_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination3_Status: The value of this parameter defines which source is connected to destination 3
+(200, u'9')
+eParamID_XPT_Destination3_Locked: Defines whether destination 3 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination3_Line_1: Defines the text that appears on the top line of the destination 3 button
+(200, u'SWTCHR')
+eParamID_XPT_Destination3_Line_2: Defines the text that appears on the bottom line of the destination 3 button
+(200, u'3')
+eParamID_XPT_Destination3_ButtonColor: Defines the color of the destination 3 button
+(200, u'0')
+eParamID_XPT_Destination3_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination4_Status: The value of this parameter defines which source is connected to destination 4
+(200, u'5')
+eParamID_XPT_Destination4_Locked: Defines whether destination 4 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination4_Line_1: Defines the text that appears on the top line of the destination 4 button
+(200, u'SWTCH')
+eParamID_XPT_Destination4_Line_2: Defines the text that appears on the bottom line of the destination 4 button
+(200, u'4')
+eParamID_XPT_Destination4_ButtonColor: Defines the color of the destination 4 button
+(200, u'0')
+eParamID_XPT_Destination4_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination5_Status: The value of this parameter defines which source is connected to destination 5
+(200, u'16')
+eParamID_XPT_Destination5_Locked: Defines whether destination 5 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination5_Line_1: Defines the text that appears on the top line of the destination 5 button
+(200, u'PATCH')
+eParamID_XPT_Destination5_Line_2: Defines the text that appears on the bottom line of the destination 5 button
+(200, u'1')
+eParamID_XPT_Destination5_ButtonColor: Defines the color of the destination 5 button
+(200, u'0')
+eParamID_XPT_Destination5_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination6_Status: The value of this parameter defines which source is connected to destination 6
+(200, u'16')
+eParamID_XPT_Destination6_Locked: Defines whether destination 6 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination6_Line_1: Defines the text that appears on the top line of the destination 6 button
+(200, u'PATCH')
+eParamID_XPT_Destination6_Line_2: Defines the text that appears on the bottom line of the destination 6 button
+(200, u'2')
+eParamID_XPT_Destination6_ButtonColor: Defines the color of the destination 6 button
+(200, u'0')
+eParamID_XPT_Destination6_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination7_Status: The value of this parameter defines which source is connected to destination 7
+(200, u'16')
+eParamID_XPT_Destination7_Locked: Defines whether destination 7 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination7_Line_1: Defines the text that appears on the top line of the destination 7 button
+(200, u'CAFE')
+eParamID_XPT_Destination7_Line_2: Defines the text that appears on the bottom line of the destination 7 button
+(200, u'TV 1')
+eParamID_XPT_Destination7_ButtonColor: Defines the color of the destination 7 button
+(200, u'0')
+eParamID_XPT_Destination7_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination8_Status: The value of this parameter defines which source is connected to destination 8
+(200, u'10')
+eParamID_XPT_Destination8_Locked: Defines whether destination 8 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination8_Line_1: Defines the text that appears on the top line of the destination 8 button
+(200, u'CRY')
+eParamID_XPT_Destination8_Line_2: Defines the text that appears on the bottom line of the destination 8 button
+(200, u'TV')
+eParamID_XPT_Destination8_ButtonColor: Defines the color of the destination 8 button
+(200, u'0')
+eParamID_XPT_Destination8_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination9_Status: The value of this parameter defines which source is connected to destination 9
+(200, u'10')
+eParamID_XPT_Destination9_Locked: Defines whether destination 9 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination9_Line_1: Defines the text that appears on the top line of the destination 9 button
+(200, u'KIPRO')
+eParamID_XPT_Destination9_Line_2: Defines the text that appears on the bottom line of the destination 9 button
+(200, u'IN')
+eParamID_XPT_Destination9_ButtonColor: Defines the color of the destination 9 button
+(200, u'0')
+eParamID_XPT_Destination9_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination10_Status: The value of this parameter defines which source is connected to destination 10
+(200, u'16')
+eParamID_XPT_Destination10_Locked: Defines whether destination 10 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination10_Line_1: Defines the text that appears on the top line of the destination 10 button
+(200, u'EMBED')
+eParamID_XPT_Destination10_Line_2: Defines the text that appears on the bottom line of the destination 10 button
+(200, u'IP')
+eParamID_XPT_Destination10_ButtonColor: Defines the color of the destination 10 button
+(200, u'0')
+eParamID_XPT_Destination10_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination11_Status: The value of this parameter defines which source is connected to destination 11
+(200, u'16')
+eParamID_XPT_Destination11_Locked: Defines whether destination 11 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination11_Line_1: Defines the text that appears on the top line of the destination 11 button
+(200, u'CMNS')
+eParamID_XPT_Destination11_Line_2: Defines the text that appears on the bottom line of the destination 11 button
+(200, u'TV')
+eParamID_XPT_Destination11_ButtonColor: Defines the color of the destination 11 button
+(200, u'0')
+eParamID_XPT_Destination11_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination12_Status: The value of this parameter defines which source is connected to destination 12
+(200, u'16')
+eParamID_XPT_Destination12_Locked: Defines whether destination 12 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination12_Line_1: Defines the text that appears on the top line of the destination 12 button
+(200, u'CAFE')
+eParamID_XPT_Destination12_Line_2: Defines the text that appears on the bottom line of the destination 12 button
+(200, u'TV 2')
+eParamID_XPT_Destination12_ButtonColor: Defines the color of the destination 12 button
+(200, u'0')
+eParamID_XPT_Destination12_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination13_Status: The value of this parameter defines which source is connected to destination 13
+(200, u'10')
+eParamID_XPT_Destination13_Locked: Defines whether destination 13 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination13_Line_1: Defines the text that appears on the top line of the destination 13 button
+(200, u'NURSERY')
+eParamID_XPT_Destination13_Line_2: Defines the text that appears on the bottom line of the destination 13 button
+(200, u'TV')
+eParamID_XPT_Destination13_ButtonColor: Defines the color of the destination 13 button
+(200, u'0')
+eParamID_XPT_Destination13_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination14_Status: The value of this parameter defines which source is connected to destination 14
+(200, u'16')
+eParamID_XPT_Destination14_Locked: Defines whether destination 14 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination14_Line_1: Defines the text that appears on the top line of the destination 14 button
+(200, u'PROJ')
+eParamID_XPT_Destination14_Line_2: Defines the text that appears on the bottom line of the destination 14 button
+(200, u'CNTR')
+eParamID_XPT_Destination14_ButtonColor: Defines the color of the destination 14 button
+(200, u'0')
+eParamID_XPT_Destination14_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination15_Status: The value of this parameter defines which source is connected to destination 15
+(200, u'5')
+eParamID_XPT_Destination15_Locked: Defines whether destination 15 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination15_Line_1: Defines the text that appears on the top line of the destination 15 button
+(200, u'PROJ')
+eParamID_XPT_Destination15_Line_2: Defines the text that appears on the bottom line of the destination 15 button
+(200, u'L-R')
+eParamID_XPT_Destination15_ButtonColor: Defines the color of the destination 15 button
+(200, u'0')
+eParamID_XPT_Destination15_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination16_Status: The value of this parameter defines which source is connected to destination 16
+(200, u'6')
+eParamID_XPT_Destination16_Locked: Defines whether destination 16 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination16_Line_1: Defines the text that appears on the top line of the destination 16 button
+(200, u'PROJ')
+eParamID_XPT_Destination16_Line_2: Defines the text that appears on the bottom line of the destination 16 button
+(200, u'CONF')
+eParamID_XPT_Destination16_ButtonColor: Defines the color of the destination 16 button
+(200, u'0')
+eParamID_XPT_Destination16_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination17_Status: The value of this parameter defines which source is connected to destination 17
+(200, u'-1')
+eParamID_XPT_Destination17_Locked: Defines whether destination 17 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination17_Line_1: Defines the text that appears on the top line of the destination 17 button
+(200, u'Dest 17')
+eParamID_XPT_Destination17_Line_2: Defines the text that appears on the bottom line of the destination 17 button
+(200, u'')
+eParamID_XPT_Destination17_ButtonColor: Defines the color of the destination 17 button
+(200, u'0')
+eParamID_XPT_Destination17_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination18_Status: The value of this parameter defines which source is connected to destination 18
+(200, u'-1')
+eParamID_XPT_Destination18_Locked: Defines whether destination 18 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination18_Line_1: Defines the text that appears on the top line of the destination 18 button
+(200, u'Dest 18')
+eParamID_XPT_Destination18_Line_2: Defines the text that appears on the bottom line of the destination 18 button
+(200, u'')
+eParamID_XPT_Destination18_ButtonColor: Defines the color of the destination 18 button
+(200, u'0')
+eParamID_XPT_Destination18_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination19_Status: The value of this parameter defines which source is connected to destination 19
+(200, u'-1')
+eParamID_XPT_Destination19_Locked: Defines whether destination 19 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination19_Line_1: Defines the text that appears on the top line of the destination 19 button
+(200, u'Dest 19')
+eParamID_XPT_Destination19_Line_2: Defines the text that appears on the bottom line of the destination 19 button
+(200, u'')
+eParamID_XPT_Destination19_ButtonColor: Defines the color of the destination 19 button
+(200, u'0')
+eParamID_XPT_Destination19_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination20_Status: The value of this parameter defines which source is connected to destination 20
+(200, u'-1')
+eParamID_XPT_Destination20_Locked: Defines whether destination 20 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination20_Line_1: Defines the text that appears on the top line of the destination 20 button
+(200, u'Dest 20')
+eParamID_XPT_Destination20_Line_2: Defines the text that appears on the bottom line of the destination 20 button
+(200, u'')
+eParamID_XPT_Destination20_ButtonColor: Defines the color of the destination 20 button
+(200, u'0')
+eParamID_XPT_Destination20_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination21_Status: The value of this parameter defines which source is connected to destination 21
+(200, u'-1')
+eParamID_XPT_Destination21_Locked: Defines whether destination 21 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination21_Line_1: Defines the text that appears on the top line of the destination 21 button
+(200, u'Dest 21')
+eParamID_XPT_Destination21_Line_2: Defines the text that appears on the bottom line of the destination 21 button
+(200, u'')
+eParamID_XPT_Destination21_ButtonColor: Defines the color of the destination 21 button
+(200, u'0')
+eParamID_XPT_Destination21_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination22_Status: The value of this parameter defines which source is connected to destination 22
+(200, u'-1')
+eParamID_XPT_Destination22_Locked: Defines whether destination 22 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination22_Line_1: Defines the text that appears on the top line of the destination 22 button
+(200, u'Dest 22')
+eParamID_XPT_Destination22_Line_2: Defines the text that appears on the bottom line of the destination 22 button
+(200, u'')
+eParamID_XPT_Destination22_ButtonColor: Defines the color of the destination 22 button
+(200, u'0')
+eParamID_XPT_Destination22_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination23_Status: The value of this parameter defines which source is connected to destination 23
+(200, u'-1')
+eParamID_XPT_Destination23_Locked: Defines whether destination 23 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination23_Line_1: Defines the text that appears on the top line of the destination 23 button
+(200, u'Dest 23')
+eParamID_XPT_Destination23_Line_2: Defines the text that appears on the bottom line of the destination 23 button
+(200, u'')
+eParamID_XPT_Destination23_ButtonColor: Defines the color of the destination 23 button
+(200, u'0')
+eParamID_XPT_Destination23_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination24_Status: The value of this parameter defines which source is connected to destination 24
+(200, u'-1')
+eParamID_XPT_Destination24_Locked: Defines whether destination 24 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination24_Line_1: Defines the text that appears on the top line of the destination 24 button
+(200, u'Dest 24')
+eParamID_XPT_Destination24_Line_2: Defines the text that appears on the bottom line of the destination 24 button
+(200, u'')
+eParamID_XPT_Destination24_ButtonColor: Defines the color of the destination 24 button
+(200, u'0')
+eParamID_XPT_Destination24_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination25_Status: The value of this parameter defines which source is connected to destination 25
+(200, u'-1')
+eParamID_XPT_Destination25_Locked: Defines whether destination 25 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination25_Line_1: Defines the text that appears on the top line of the destination 25 button
+(200, u'Dest 25')
+eParamID_XPT_Destination25_Line_2: Defines the text that appears on the bottom line of the destination 25 button
+(200, u'')
+eParamID_XPT_Destination25_ButtonColor: Defines the color of the destination 25 button
+(200, u'0')
+eParamID_XPT_Destination25_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination26_Status: The value of this parameter defines which source is connected to destination 26
+(200, u'-1')
+eParamID_XPT_Destination26_Locked: Defines whether destination 26 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination26_Line_1: Defines the text that appears on the top line of the destination 26 button
+(200, u'Dest 26')
+eParamID_XPT_Destination26_Line_2: Defines the text that appears on the bottom line of the destination 26 button
+(200, u'')
+eParamID_XPT_Destination26_ButtonColor: Defines the color of the destination 26 button
+(200, u'0')
+eParamID_XPT_Destination26_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination27_Status: The value of this parameter defines which source is connected to destination 27
+(200, u'-1')
+eParamID_XPT_Destination27_Locked: Defines whether destination 27 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination27_Line_1: Defines the text that appears on the top line of the destination 27 button
+(200, u'Dest 27')
+eParamID_XPT_Destination27_Line_2: Defines the text that appears on the bottom line of the destination 27 button
+(200, u'')
+eParamID_XPT_Destination27_ButtonColor: Defines the color of the destination 27 button
+(200, u'0')
+eParamID_XPT_Destination27_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination28_Status: The value of this parameter defines which source is connected to destination 28
+(200, u'-1')
+eParamID_XPT_Destination28_Locked: Defines whether destination 28 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination28_Line_1: Defines the text that appears on the top line of the destination 28 button
+(200, u'Dest 28')
+eParamID_XPT_Destination28_Line_2: Defines the text that appears on the bottom line of the destination 28 button
+(200, u'')
+eParamID_XPT_Destination28_ButtonColor: Defines the color of the destination 28 button
+(200, u'0')
+eParamID_XPT_Destination28_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination29_Status: The value of this parameter defines which source is connected to destination 29
+(200, u'-1')
+eParamID_XPT_Destination29_Locked: Defines whether destination 29 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination29_Line_1: Defines the text that appears on the top line of the destination 29 button
+(200, u'Dest 29')
+eParamID_XPT_Destination29_Line_2: Defines the text that appears on the bottom line of the destination 29 button
+(200, u'')
+eParamID_XPT_Destination29_ButtonColor: Defines the color of the destination 29 button
+(200, u'0')
+eParamID_XPT_Destination29_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination30_Status: The value of this parameter defines which source is connected to destination 30
+(200, u'-1')
+eParamID_XPT_Destination30_Locked: Defines whether destination 30 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination30_Line_1: Defines the text that appears on the top line of the destination 30 button
+(200, u'Dest 30')
+eParamID_XPT_Destination30_Line_2: Defines the text that appears on the bottom line of the destination 30 button
+(200, u'')
+eParamID_XPT_Destination30_ButtonColor: Defines the color of the destination 30 button
+(200, u'0')
+eParamID_XPT_Destination30_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination31_Status: The value of this parameter defines which source is connected to destination 31
+(200, u'-1')
+eParamID_XPT_Destination31_Locked: Defines whether destination 31 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination31_Line_1: Defines the text that appears on the top line of the destination 31 button
+(200, u'Dest 31')
+eParamID_XPT_Destination31_Line_2: Defines the text that appears on the bottom line of the destination 31 button
+(200, u'')
+eParamID_XPT_Destination31_ButtonColor: Defines the color of the destination 31 button
+(200, u'0')
+eParamID_XPT_Destination31_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Destination32_Status: The value of this parameter defines which source is connected to destination 32
+(200, u'-1')
+eParamID_XPT_Destination32_Locked: Defines whether destination 32 is locked or not (0 = unlocked, 1 = locked)
+(200, u'0')
+eParamID_XPT_Destination32_Line_1: Defines the text that appears on the top line of the destination 32 button
+(200, u'Dest 32')
+eParamID_XPT_Destination32_Line_2: Defines the text that appears on the bottom line of the destination 32 button
+(200, u'')
+eParamID_XPT_Destination32_ButtonColor: Defines the color of the destination 32 button
+(200, u'0')
+eParamID_XPT_Destination32_Exclude: description missing
+(200, u'0')
+eParamID_XPT_Source1_Status: description missing
+(200, u'0')
+eParamID_XPT_Source1_Line_1: Defines the text that appears on the top line of the source 1 button
+(200, u'CAM1')
+eParamID_XPT_Source1_Line_2: Defines the text that appears on the bottom line of the source 1 button
+(200, u'1')
+eParamID_XPT_Source1_ButtonColor: Defines the color of the source 1 button
+(200, u'0')
+eParamID_Button_Settings_1: description missing
+(200, u'{"classes":""}')
+eParamID_XPT_Source2_Status: description missing
+(200, u'0')
+eParamID_XPT_Source2_Line_1: Defines the text that appears on the top line of the source 2 button
+(200, u'CAM2')
+eParamID_XPT_Source2_Line_2: Defines the text that appears on the bottom line of the source 2 button
+(200, u'2')
+eParamID_XPT_Source2_ButtonColor: Defines the color of the source 2 button
+(200, u'0')
+eParamID_Button_Settings_2: description missing
+(200, u'{"classes":""}')
+eParamID_XPT_Source3_Status: description missing
+(200, u'0')
+eParamID_XPT_Source3_Line_1: Defines the text that appears on the top line of the source 3 button
+(200, u'PATCH')
+eParamID_XPT_Source3_Line_2: Defines the text that appears on the bottom line of the source 3 button
+(200, u'3')
+eParamID_XPT_Source3_ButtonColor: Defines the color of the source 3 button
+(200, u'0')
+eParamID_Button_Settings_3: description missing
+(200, u'{"classes":""}')
+eParamID_XPT_Source4_Status: description missing
+(200, u'0')
+eParamID_XPT_Source4_Line_1: Defines the text that appears on the top line of the source 4 button
+(200, u'SAT')
+eParamID_XPT_Source4_Line_2: Defines the text that appears on the bottom line of the source 4 button
+(200, u'HDMI')
+eParamID_XPT_Source4_ButtonColor: Defines the color of the source 4 button
+(200, u'0')
+eParamID_Button_Settings_4: description missing
+(200, u'{"classes":"color_2"}')
+eParamID_XPT_Source5_Status: description missing
+(200, u'0')
+eParamID_XPT_Source5_Line_1: Defines the text that appears on the top line of the source 5 button
+(200, u'CG 1')
+eParamID_XPT_Source5_Line_2: Defines the text that appears on the bottom line of the source 5 button
+(200, u'PGM')
+eParamID_XPT_Source5_ButtonColor: Defines the color of the source 5 button
+(200, u'0')
+eParamID_Button_Settings_5: description missing
+(200, u'{"classes":"color_6"}')
+eParamID_XPT_Source6_Status: description missing
+(200, u'0')
+eParamID_XPT_Source6_Line_1: Defines the text that appears on the top line of the source 6 button
+(200, u'CG 1')
+eParamID_XPT_Source6_Line_2: Defines the text that appears on the bottom line of the source 6 button
+(200, u'CONF')
+eParamID_XPT_Source6_ButtonColor: Defines the color of the source 6 button
+(200, u'0')
+eParamID_Button_Settings_6: description missing
+(200, u'{"classes":"color_6"}')
+eParamID_XPT_Source7_Status: description missing
+(200, u'0')
+eParamID_XPT_Source7_Line_1: Defines the text that appears on the top line of the source 7 button
+(200, u'SAT')
+eParamID_XPT_Source7_Line_2: Defines the text that appears on the bottom line of the source 7 button
+(200, u'YPbPr')
+eParamID_XPT_Source7_ButtonColor: Defines the color of the source 7 button
+(200, u'0')
+eParamID_Button_Settings_7: description missing
+(200, u'{"classes":"color_2"}')
+eParamID_XPT_Source8_Status: description missing
+(200, u'0')
+eParamID_XPT_Source8_Line_1: Defines the text that appears on the top line of the source 8 button
+(200, u'Source 8')
+eParamID_XPT_Source8_Line_2: Defines the text that appears on the bottom line of the source 8 button
+(200, u'')
+eParamID_XPT_Source8_ButtonColor: Defines the color of the source 8 button
+(200, u'0')
+eParamID_Button_Settings_8: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_XPT_Source9_Status: description missing
+(200, u'0')
+eParamID_XPT_Source9_Line_1: Defines the text that appears on the top line of the source 9 button
+(200, u'KIPRO')
+eParamID_XPT_Source9_Line_2: Defines the text that appears on the bottom line of the source 9 button
+(200, u'OUT')
+eParamID_XPT_Source9_ButtonColor: Defines the color of the source 9 button
+(200, u'0')
+eParamID_Button_Settings_9: description missing
+(200, u'{"classes":"color_7"}')
+eParamID_XPT_Source10_Status: description missing
+(200, u'0')
+eParamID_XPT_Source10_Line_1: Defines the text that appears on the top line of the source 10 button
+(200, u'EMBED')
+eParamID_XPT_Source10_Line_2: Defines the text that appears on the bottom line of the source 10 button
+(200, u'OP')
+eParamID_XPT_Source10_ButtonColor: Defines the color of the source 10 button
+(200, u'0')
+eParamID_Button_Settings_10: description missing
+(200, u'{"classes":"color_9"}')
+eParamID_XPT_Source11_Status: description missing
+(200, u'0')
+eParamID_XPT_Source11_Line_1: Defines the text that appears on the top line of the source 11 button
+(200, u'Source 11')
+eParamID_XPT_Source11_Line_2: Defines the text that appears on the bottom line of the source 11 button
+(200, u'')
+eParamID_XPT_Source11_ButtonColor: Defines the color of the source 11 button
+(200, u'0')
+eParamID_Button_Settings_11: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_XPT_Source12_Status: description missing
+(200, u'0')
+eParamID_XPT_Source12_Line_1: Defines the text that appears on the top line of the source 12 button
+(200, u'Source 12')
+eParamID_XPT_Source12_Line_2: Defines the text that appears on the bottom line of the source 12 button
+(200, u'')
+eParamID_XPT_Source12_ButtonColor: Defines the color of the source 12 button
+(200, u'0')
+eParamID_Button_Settings_12: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_XPT_Source13_Status: description missing
+(200, u'0')
+eParamID_XPT_Source13_Line_1: Defines the text that appears on the top line of the source 13 button
+(200, u'Source 13')
+eParamID_XPT_Source13_Line_2: Defines the text that appears on the bottom line of the source 13 button
+(200, u'')
+eParamID_XPT_Source13_ButtonColor: Defines the color of the source 13 button
+(200, u'0')
+eParamID_Button_Settings_13: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_XPT_Source14_Status: description missing
+(200, u'0')
+eParamID_XPT_Source14_Line_1: Defines the text that appears on the top line of the source 14 button
+(200, u'Source 14')
+eParamID_XPT_Source14_Line_2: Defines the text that appears on the bottom line of the source 14 button
+(200, u'')
+eParamID_XPT_Source14_ButtonColor: Defines the color of the source 14 button
+(200, u'0')
+eParamID_Button_Settings_14: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_XPT_Source15_Status: description missing
+(200, u'0')
+eParamID_XPT_Source15_Line_1: Defines the text that appears on the top line of the source 15 button
+(200, u'SWTCHR')
+eParamID_XPT_Source15_Line_2: Defines the text that appears on the bottom line of the source 15 button
+(200, u'AUX')
+eParamID_XPT_Source15_ButtonColor: Defines the color of the source 15 button
+(200, u'0')
+eParamID_Button_Settings_15: description missing
+(200, u'{"classes":"color_1"}')
+eParamID_XPT_Source16_Status: description missing
+(200, u'0')
+eParamID_XPT_Source16_Line_1: Defines the text that appears on the top line of the source 16 button
+(200, u'SWTCHR')
+eParamID_XPT_Source16_Line_2: Defines the text that appears on the bottom line of the source 16 button
+(200, u'PGM')
+eParamID_XPT_Source16_ButtonColor: Defines the color of the source 16 button
+(200, u'0')
+eParamID_Button_Settings_16: description missing
+(200, u'{"classes":"color_1"}')
+eParamID_XPT_Source17_Status: description missing
+(200, u'0')
+eParamID_XPT_Source17_Line_1: Defines the text that appears on the top line of the source 17 button
+(200, u'Source 17')
+eParamID_XPT_Source17_Line_2: Defines the text that appears on the bottom line of the source 17 button
+(200, u'')
+eParamID_XPT_Source17_ButtonColor: Defines the color of the source 17 button
+(200, u'0')
+eParamID_Button_Settings_17: description missing
+(200, u'{"classes":"color_1"}')
+eParamID_XPT_Source18_Status: description missing
+(200, u'0')
+eParamID_XPT_Source18_Line_1: Defines the text that appears on the top line of the source 18 button
+(200, u'Source 18')
+eParamID_XPT_Source18_Line_2: Defines the text that appears on the bottom line of the source 18 button
+(200, u'')
+eParamID_XPT_Source18_ButtonColor: Defines the color of the source 18 button
+(200, u'0')
+eParamID_Button_Settings_18: description missing
+(200, u'{"classes":"color_1"}')
+eParamID_XPT_Source19_Status: description missing
+(200, u'0')
+eParamID_XPT_Source19_Line_1: Defines the text that appears on the top line of the source 19 button
+(200, u'Source 19')
+eParamID_XPT_Source19_Line_2: Defines the text that appears on the bottom line of the source 19 button
+(200, u'')
+eParamID_XPT_Source19_ButtonColor: Defines the color of the source 19 button
+(200, u'0')
+eParamID_Button_Settings_19: description missing
+(200, u'{"classes":"color_1"}')
+eParamID_XPT_Source20_Status: description missing
+(200, u'0')
+eParamID_XPT_Source20_Line_1: Defines the text that appears on the top line of the source 20 button
+(200, u'Source 20')
+eParamID_XPT_Source20_Line_2: Defines the text that appears on the bottom line of the source 20 button
+(200, u'')
+eParamID_XPT_Source20_ButtonColor: Defines the color of the source 20 button
+(200, u'0')
+eParamID_Button_Settings_20: description missing
+(200, u'{"classes":"color_1"}')
+eParamID_XPT_Source21_Status: description missing
+(200, u'0')
+eParamID_XPT_Source21_Line_1: Defines the text that appears on the top line of the source 21 button
+(200, u'Source 21')
+eParamID_XPT_Source21_Line_2: Defines the text that appears on the bottom line of the source 21 button
+(200, u'')
+eParamID_XPT_Source21_ButtonColor: Defines the color of the source 21 button
+(200, u'0')
+eParamID_Button_Settings_21: description missing
+(200, u'{"classes":""}')
+eParamID_XPT_Source22_Status: description missing
+(200, u'0')
+eParamID_XPT_Source22_Line_1: Defines the text that appears on the top line of the source 22 button
+(200, u'Source 22')
+eParamID_XPT_Source22_Line_2: Defines the text that appears on the bottom line of the source 22 button
+(200, u'')
+eParamID_XPT_Source22_ButtonColor: Defines the color of the source 22 button
+(200, u'0')
+eParamID_Button_Settings_22: description missing
+(200, u'{"classes":""}')
+eParamID_XPT_Source23_Status: description missing
+(200, u'0')
+eParamID_XPT_Source23_Line_1: Defines the text that appears on the top line of the source 23 button
+(200, u'Source 23')
+eParamID_XPT_Source23_Line_2: Defines the text that appears on the bottom line of the source 23 button
+(200, u'')
+eParamID_XPT_Source23_ButtonColor: Defines the color of the source 23 button
+(200, u'0')
+eParamID_Button_Settings_23: description missing
+(200, u'{"classes":"color_5"}')
+eParamID_XPT_Source24_Status: description missing
+(200, u'0')
+eParamID_XPT_Source24_Line_1: Defines the text that appears on the top line of the source 24 button
+(200, u'Source 24')
+eParamID_XPT_Source24_Line_2: Defines the text that appears on the bottom line of the source 24 button
+(200, u'')
+eParamID_XPT_Source24_ButtonColor: Defines the color of the source 24 button
+(200, u'0')
+eParamID_Button_Settings_24: description missing
+(200, u'{"classes":"color_5"}')
+eParamID_XPT_Source25_Status: description missing
+(200, u'0')
+eParamID_XPT_Source25_Line_1: Defines the text that appears on the top line of the source 25 button
+(200, u'Source 25')
+eParamID_XPT_Source25_Line_2: Defines the text that appears on the bottom line of the source 25 button
+(200, u'')
+eParamID_XPT_Source25_ButtonColor: Defines the color of the source 25 button
+(200, u'0')
+eParamID_Button_Settings_25: description missing
+(200, u'{"classes":"color_7"}')
+eParamID_XPT_Source26_Status: description missing
+(200, u'0')
+eParamID_XPT_Source26_Line_1: Defines the text that appears on the top line of the source 26 button
+(200, u'Source 26')
+eParamID_XPT_Source26_Line_2: Defines the text that appears on the bottom line of the source 26 button
+(200, u'')
+eParamID_XPT_Source26_ButtonColor: Defines the color of the source 26 button
+(200, u'0')
+eParamID_Button_Settings_26: description missing
+(200, u'{"classes":"color_9"}')
+eParamID_XPT_Source27_Status: description missing
+(200, u'0')
+eParamID_XPT_Source27_Line_1: Defines the text that appears on the top line of the source 27 button
+(200, u'Source 27')
+eParamID_XPT_Source27_Line_2: Defines the text that appears on the bottom line of the source 27 button
+(200, u'')
+eParamID_XPT_Source27_ButtonColor: Defines the color of the source 27 button
+(200, u'0')
+eParamID_Button_Settings_27: description missing
+(200, u'{"classes":"color_5"}')
+eParamID_XPT_Source28_Status: description missing
+(200, u'0')
+eParamID_XPT_Source28_Line_1: Defines the text that appears on the top line of the source 28 button
+(200, u'Source 28')
+eParamID_XPT_Source28_Line_2: Defines the text that appears on the bottom line of the source 28 button
+(200, u'')
+eParamID_XPT_Source28_ButtonColor: Defines the color of the source 28 button
+(200, u'0')
+eParamID_Button_Settings_28: description missing
+(200, u'{"classes":"color_5"}')
+eParamID_XPT_Source29_Status: description missing
+(200, u'0')
+eParamID_XPT_Source29_Line_1: Defines the text that appears on the top line of the source 29 button
+(200, u'Source 29')
+eParamID_XPT_Source29_Line_2: Defines the text that appears on the bottom line of the source 29 button
+(200, u'')
+eParamID_XPT_Source29_ButtonColor: Defines the color of the source 29 button
+(200, u'0')
+eParamID_Button_Settings_29: description missing
+(200, u'{"classes":"color_5"}')
+eParamID_XPT_Source30_Status: description missing
+(200, u'0')
+eParamID_XPT_Source30_Line_1: Defines the text that appears on the top line of the source 30 button
+(200, u'Source 30')
+eParamID_XPT_Source30_Line_2: Defines the text that appears on the bottom line of the source 30 button
+(200, u'')
+eParamID_XPT_Source30_ButtonColor: Defines the color of the source 30 button
+(200, u'0')
+eParamID_Button_Settings_30: description missing
+(200, u'{"classes":"color_2"}')
+eParamID_XPT_Source31_Status: description missing
+(200, u'0')
+eParamID_XPT_Source31_Line_1: Defines the text that appears on the top line of the source 31 button
+(200, u'Source 31')
+eParamID_XPT_Source31_Line_2: Defines the text that appears on the bottom line of the source 31 button
+(200, u'')
+eParamID_XPT_Source31_ButtonColor: Defines the color of the source 31 button
+(200, u'0')
+eParamID_Button_Settings_31: description missing
+(200, u'{"classes":"color_2"}')
+eParamID_XPT_Source32_Status: description missing
+(200, u'0')
+eParamID_XPT_Source32_Line_1: Defines the text that appears on the top line of the source 32 button
+(200, u'Source 32')
+eParamID_XPT_Source32_Line_2: Defines the text that appears on the bottom line of the source 32 button
+(200, u'')
+eParamID_XPT_Source32_ButtonColor: Defines the color of the source 32 button
+(200, u'0')
+eParamID_Button_Settings_32: description missing
+(200, u'{"classes":"color_2"}')
+eParamID_Button_Settings_33: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_34: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_35: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_36: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_37: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_38: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_39: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_40: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_41: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_42: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_43: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_44: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_45: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_46: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_47: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_48: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_49: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_50: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_51: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_52: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_53: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_54: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_55: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_56: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_57: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_58: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_59: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_60: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_61: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_62: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_63: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Button_Settings_64: description missing
+(200, u'{"normal_color":"#88a1af","high_tally_color":"#43b6f5"}')
+eParamID_Control_Panel_Mode: description missing
+(200, u'0')
+eParamID_KumoProductID: The product id of this KUMO unit
+(200, u'1')
+eParamID_NumberOfSources: Defines the number of sources
+(200, u'16')
+eParamID_NumberOfDestinations: Defines the number of destinations
+(200, u'16')
+eParamID_LastSelectedDestination: description missing
+(200, u'0')
+eParamID_LastSelectedDestination_Matrix1: description missing
+(200, u'0')
+eParamID_LastSelectedDestination_Matrix2: description missing
+(200, u'0')
+eParamID_LastSelectedDestination_Matrix3: description missing
+(200, u'0')
+eParamID_LastSelectedDestination_Matrix4: description missing
+(200, u'0')
+eParamID_LastSelectedMatrix: description missing
+(200, u'0')
+eParamID_PanelLocked: description missing
+(200, u'0')
+eParamID_AutoconfigEnabled: Defines whether or not the network autoconfig is enabled
+(200, u'1')
+eParamID_LastPairedMatrix: Stores the last paired matrix
+(200, u'')
+eParamID_LastSelectedDestinationBank1: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank1_Matrix1: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank1_Matrix2: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank1_Matrix3: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank1_Matrix4: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank2: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank2_Matrix1: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank2_Matrix2: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank2_Matrix3: description missing
+(200, u'0')
+eParamID_LastSelectedDestinationBank2_Matrix4: description missing
+(200, u'0')
+eParamID_SignalSwitching: Defines the signal switching mode
+(200, u'0')
+eParamID_Matrix_Level1: description missing
+(200, u'')
+eParamID_Matrix_Level2: description missing
+(200, u'')
+eParamID_Matrix_Level3: description missing
+(200, u'')
+eParamID_Matrix_Level4: description missing
+(200, u'')
+eParamID_IPConfig: description missing
+(200, u'2')
+eParamID_IPAddress: description missing
+(200, u'0')
+eParamID_IPAddress_1: description missing
+(200, u'167995954')
+eParamID_IPAddress_2: description missing
+(200, u'0')
+eParamID_IPAddress_3: description missing
+(200, u'172374553')
+eParamID_SubnetMask: description missing
+(200, u'-65536')
+eParamID_SubnetMask_1: description missing
+(200, u'-256')
+eParamID_SubnetMask_2: description missing
+(200, u'-256')
+eParamID_SubnetMask_3: description missing
+(200, u'-256')
+eParamID_DefaultGateway: description missing
+(200, u'0')
+eParamID_DefaultGateway_1: description missing
+(200, u'0')
+eParamID_DefaultGateway_2: description missing
+(200, u'0')
+eParamID_DefaultGateway_3: description missing
+(200, u'172374529')
+eParamID_SysName: description missing
+(200, u'KUMO1616-2551')
+eParamID_MACAddress: description missing
+(200, u'00:0C:17:0C:88:03')
+eParamID_EmergencyIPAddress: description missing
+(200, u'0')
+eParamID_SuppressPSAlarm: description missing
+(200, u'1')
+eParamID_SuppressReferenceAlarm: description missing
+(200, u'1')
+eParamID_SuppressTemperatureAlarm: description missing
+(200, u'0')
+eParamID_TemperatureAlarmSetpoint: description missing
+(200, u'82')
+eParamID_DisplayIntensity: description missing
+(200, u'3')
+eParamID_HighTallyIntensity: description missing
+(200, u'1')
+eParamID_LowTallyIntensity: description missing
+(200, u'1')
+eParamID_PSLEDIntensity: description missing
+(200, u'1')
+eParamID_SWVersion: description missing
+(200, u'50397191')
+eParamID_SafebootMode: description missing
+(200, u'0')
+eParamID_SerialNumber: description missing
+(200, u'200503')
+eParamID_FactorySettings: description missing
+(200, u'0')
+eParamID_LED_Identify: description missing
+(200, u'0')
+eParamID_AlarmLed: description missing
+(200, u'0')
+eParamID_IdentifyLed: description missing
+(200, u'0')
+eParamID_DetectReferenceFormat: description missing
+(200, u'0')
+eParamID_Temperature: description missing
+(200, u'44')
+eParamID_PSAlarm: description missing
+(200, u'1')
+eParamID_ReferenceAlarm: description missing
+(200, u'1')
+eParamID_TemperatureAlarm: description missing
+(200, u'0')
+eParamID_LastSelectedConfigParam: description missing
+(200, u'0')
+
+These are all of the parameters which can possibly be set.
+
+eParamID_Status: description missing
+eParamID_NetworkCommand: description missing
+eParamID_NetworkState: description missing
+eParamID_XPT_Destination1_Status: The value of this parameter defines which source is connected to destination 1
+eParamID_XPT_Destination1_Locked: Defines whether destination 1 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination1_Line_1: Defines the text that appears on the top line of the destination 1 button
+eParamID_XPT_Destination1_Line_2: Defines the text that appears on the bottom line of the destination 1 button
+eParamID_XPT_Destination1_ButtonColor: Defines the color of the destination 1 button
+eParamID_XPT_Destination1_Exclude: description missing
+eParamID_XPT_Destination2_Status: The value of this parameter defines which source is connected to destination 2
+eParamID_XPT_Destination2_Locked: Defines whether destination 2 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination2_Line_1: Defines the text that appears on the top line of the destination 2 button
+eParamID_XPT_Destination2_Line_2: Defines the text that appears on the bottom line of the destination 2 button
+eParamID_XPT_Destination2_ButtonColor: Defines the color of the destination 2 button
+eParamID_XPT_Destination2_Exclude: description missing
+eParamID_XPT_Destination3_Status: The value of this parameter defines which source is connected to destination 3
+eParamID_XPT_Destination3_Locked: Defines whether destination 3 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination3_Line_1: Defines the text that appears on the top line of the destination 3 button
+eParamID_XPT_Destination3_Line_2: Defines the text that appears on the bottom line of the destination 3 button
+eParamID_XPT_Destination3_ButtonColor: Defines the color of the destination 3 button
+eParamID_XPT_Destination3_Exclude: description missing
+eParamID_XPT_Destination4_Status: The value of this parameter defines which source is connected to destination 4
+eParamID_XPT_Destination4_Locked: Defines whether destination 4 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination4_Line_1: Defines the text that appears on the top line of the destination 4 button
+eParamID_XPT_Destination4_Line_2: Defines the text that appears on the bottom line of the destination 4 button
+eParamID_XPT_Destination4_ButtonColor: Defines the color of the destination 4 button
+eParamID_XPT_Destination4_Exclude: description missing
+eParamID_XPT_Destination5_Status: The value of this parameter defines which source is connected to destination 5
+eParamID_XPT_Destination5_Locked: Defines whether destination 5 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination5_Line_1: Defines the text that appears on the top line of the destination 5 button
+eParamID_XPT_Destination5_Line_2: Defines the text that appears on the bottom line of the destination 5 button
+eParamID_XPT_Destination5_ButtonColor: Defines the color of the destination 5 button
+eParamID_XPT_Destination5_Exclude: description missing
+eParamID_XPT_Destination6_Status: The value of this parameter defines which source is connected to destination 6
+eParamID_XPT_Destination6_Locked: Defines whether destination 6 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination6_Line_1: Defines the text that appears on the top line of the destination 6 button
+eParamID_XPT_Destination6_Line_2: Defines the text that appears on the bottom line of the destination 6 button
+eParamID_XPT_Destination6_ButtonColor: Defines the color of the destination 6 button
+eParamID_XPT_Destination6_Exclude: description missing
+eParamID_XPT_Destination7_Status: The value of this parameter defines which source is connected to destination 7
+eParamID_XPT_Destination7_Locked: Defines whether destination 7 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination7_Line_1: Defines the text that appears on the top line of the destination 7 button
+eParamID_XPT_Destination7_Line_2: Defines the text that appears on the bottom line of the destination 7 button
+eParamID_XPT_Destination7_ButtonColor: Defines the color of the destination 7 button
+eParamID_XPT_Destination7_Exclude: description missing
+eParamID_XPT_Destination8_Status: The value of this parameter defines which source is connected to destination 8
+eParamID_XPT_Destination8_Locked: Defines whether destination 8 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination8_Line_1: Defines the text that appears on the top line of the destination 8 button
+eParamID_XPT_Destination8_Line_2: Defines the text that appears on the bottom line of the destination 8 button
+eParamID_XPT_Destination8_ButtonColor: Defines the color of the destination 8 button
+eParamID_XPT_Destination8_Exclude: description missing
+eParamID_XPT_Destination9_Status: The value of this parameter defines which source is connected to destination 9
+eParamID_XPT_Destination9_Locked: Defines whether destination 9 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination9_Line_1: Defines the text that appears on the top line of the destination 9 button
+eParamID_XPT_Destination9_Line_2: Defines the text that appears on the bottom line of the destination 9 button
+eParamID_XPT_Destination9_ButtonColor: Defines the color of the destination 9 button
+eParamID_XPT_Destination9_Exclude: description missing
+eParamID_XPT_Destination10_Status: The value of this parameter defines which source is connected to destination 10
+eParamID_XPT_Destination10_Locked: Defines whether destination 10 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination10_Line_1: Defines the text that appears on the top line of the destination 10 button
+eParamID_XPT_Destination10_Line_2: Defines the text that appears on the bottom line of the destination 10 button
+eParamID_XPT_Destination10_ButtonColor: Defines the color of the destination 10 button
+eParamID_XPT_Destination10_Exclude: description missing
+eParamID_XPT_Destination11_Status: The value of this parameter defines which source is connected to destination 11
+eParamID_XPT_Destination11_Locked: Defines whether destination 11 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination11_Line_1: Defines the text that appears on the top line of the destination 11 button
+eParamID_XPT_Destination11_Line_2: Defines the text that appears on the bottom line of the destination 11 button
+eParamID_XPT_Destination11_ButtonColor: Defines the color of the destination 11 button
+eParamID_XPT_Destination11_Exclude: description missing
+eParamID_XPT_Destination12_Status: The value of this parameter defines which source is connected to destination 12
+eParamID_XPT_Destination12_Locked: Defines whether destination 12 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination12_Line_1: Defines the text that appears on the top line of the destination 12 button
+eParamID_XPT_Destination12_Line_2: Defines the text that appears on the bottom line of the destination 12 button
+eParamID_XPT_Destination12_ButtonColor: Defines the color of the destination 12 button
+eParamID_XPT_Destination12_Exclude: description missing
+eParamID_XPT_Destination13_Status: The value of this parameter defines which source is connected to destination 13
+eParamID_XPT_Destination13_Locked: Defines whether destination 13 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination13_Line_1: Defines the text that appears on the top line of the destination 13 button
+eParamID_XPT_Destination13_Line_2: Defines the text that appears on the bottom line of the destination 13 button
+eParamID_XPT_Destination13_ButtonColor: Defines the color of the destination 13 button
+eParamID_XPT_Destination13_Exclude: description missing
+eParamID_XPT_Destination14_Status: The value of this parameter defines which source is connected to destination 14
+eParamID_XPT_Destination14_Locked: Defines whether destination 14 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination14_Line_1: Defines the text that appears on the top line of the destination 14 button
+eParamID_XPT_Destination14_Line_2: Defines the text that appears on the bottom line of the destination 14 button
+eParamID_XPT_Destination14_ButtonColor: Defines the color of the destination 14 button
+eParamID_XPT_Destination14_Exclude: description missing
+eParamID_XPT_Destination15_Status: The value of this parameter defines which source is connected to destination 15
+eParamID_XPT_Destination15_Locked: Defines whether destination 15 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination15_Line_1: Defines the text that appears on the top line of the destination 15 button
+eParamID_XPT_Destination15_Line_2: Defines the text that appears on the bottom line of the destination 15 button
+eParamID_XPT_Destination15_ButtonColor: Defines the color of the destination 15 button
+eParamID_XPT_Destination15_Exclude: description missing
+eParamID_XPT_Destination16_Status: The value of this parameter defines which source is connected to destination 16
+eParamID_XPT_Destination16_Locked: Defines whether destination 16 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination16_Line_1: Defines the text that appears on the top line of the destination 16 button
+eParamID_XPT_Destination16_Line_2: Defines the text that appears on the bottom line of the destination 16 button
+eParamID_XPT_Destination16_ButtonColor: Defines the color of the destination 16 button
+eParamID_XPT_Destination16_Exclude: description missing
+eParamID_XPT_Destination17_Status: The value of this parameter defines which source is connected to destination 17
+eParamID_XPT_Destination17_Locked: Defines whether destination 17 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination17_Line_1: Defines the text that appears on the top line of the destination 17 button
+eParamID_XPT_Destination17_Line_2: Defines the text that appears on the bottom line of the destination 17 button
+eParamID_XPT_Destination17_ButtonColor: Defines the color of the destination 17 button
+eParamID_XPT_Destination17_Exclude: description missing
+eParamID_XPT_Destination18_Status: The value of this parameter defines which source is connected to destination 18
+eParamID_XPT_Destination18_Locked: Defines whether destination 18 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination18_Line_1: Defines the text that appears on the top line of the destination 18 button
+eParamID_XPT_Destination18_Line_2: Defines the text that appears on the bottom line of the destination 18 button
+eParamID_XPT_Destination18_ButtonColor: Defines the color of the destination 18 button
+eParamID_XPT_Destination18_Exclude: description missing
+eParamID_XPT_Destination19_Status: The value of this parameter defines which source is connected to destination 19
+eParamID_XPT_Destination19_Locked: Defines whether destination 19 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination19_Line_1: Defines the text that appears on the top line of the destination 19 button
+eParamID_XPT_Destination19_Line_2: Defines the text that appears on the bottom line of the destination 19 button
+eParamID_XPT_Destination19_ButtonColor: Defines the color of the destination 19 button
+eParamID_XPT_Destination19_Exclude: description missing
+eParamID_XPT_Destination20_Status: The value of this parameter defines which source is connected to destination 20
+eParamID_XPT_Destination20_Locked: Defines whether destination 20 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination20_Line_1: Defines the text that appears on the top line of the destination 20 button
+eParamID_XPT_Destination20_Line_2: Defines the text that appears on the bottom line of the destination 20 button
+eParamID_XPT_Destination20_ButtonColor: Defines the color of the destination 20 button
+eParamID_XPT_Destination20_Exclude: description missing
+eParamID_XPT_Destination21_Status: The value of this parameter defines which source is connected to destination 21
+eParamID_XPT_Destination21_Locked: Defines whether destination 21 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination21_Line_1: Defines the text that appears on the top line of the destination 21 button
+eParamID_XPT_Destination21_Line_2: Defines the text that appears on the bottom line of the destination 21 button
+eParamID_XPT_Destination21_ButtonColor: Defines the color of the destination 21 button
+eParamID_XPT_Destination21_Exclude: description missing
+eParamID_XPT_Destination22_Status: The value of this parameter defines which source is connected to destination 22
+eParamID_XPT_Destination22_Locked: Defines whether destination 22 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination22_Line_1: Defines the text that appears on the top line of the destination 22 button
+eParamID_XPT_Destination22_Line_2: Defines the text that appears on the bottom line of the destination 22 button
+eParamID_XPT_Destination22_ButtonColor: Defines the color of the destination 22 button
+eParamID_XPT_Destination22_Exclude: description missing
+eParamID_XPT_Destination23_Status: The value of this parameter defines which source is connected to destination 23
+eParamID_XPT_Destination23_Locked: Defines whether destination 23 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination23_Line_1: Defines the text that appears on the top line of the destination 23 button
+eParamID_XPT_Destination23_Line_2: Defines the text that appears on the bottom line of the destination 23 button
+eParamID_XPT_Destination23_ButtonColor: Defines the color of the destination 23 button
+eParamID_XPT_Destination23_Exclude: description missing
+eParamID_XPT_Destination24_Status: The value of this parameter defines which source is connected to destination 24
+eParamID_XPT_Destination24_Locked: Defines whether destination 24 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination24_Line_1: Defines the text that appears on the top line of the destination 24 button
+eParamID_XPT_Destination24_Line_2: Defines the text that appears on the bottom line of the destination 24 button
+eParamID_XPT_Destination24_ButtonColor: Defines the color of the destination 24 button
+eParamID_XPT_Destination24_Exclude: description missing
+eParamID_XPT_Destination25_Status: The value of this parameter defines which source is connected to destination 25
+eParamID_XPT_Destination25_Locked: Defines whether destination 25 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination25_Line_1: Defines the text that appears on the top line of the destination 25 button
+eParamID_XPT_Destination25_Line_2: Defines the text that appears on the bottom line of the destination 25 button
+eParamID_XPT_Destination25_ButtonColor: Defines the color of the destination 25 button
+eParamID_XPT_Destination25_Exclude: description missing
+eParamID_XPT_Destination26_Status: The value of this parameter defines which source is connected to destination 26
+eParamID_XPT_Destination26_Locked: Defines whether destination 26 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination26_Line_1: Defines the text that appears on the top line of the destination 26 button
+eParamID_XPT_Destination26_Line_2: Defines the text that appears on the bottom line of the destination 26 button
+eParamID_XPT_Destination26_ButtonColor: Defines the color of the destination 26 button
+eParamID_XPT_Destination26_Exclude: description missing
+eParamID_XPT_Destination27_Status: The value of this parameter defines which source is connected to destination 27
+eParamID_XPT_Destination27_Locked: Defines whether destination 27 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination27_Line_1: Defines the text that appears on the top line of the destination 27 button
+eParamID_XPT_Destination27_Line_2: Defines the text that appears on the bottom line of the destination 27 button
+eParamID_XPT_Destination27_ButtonColor: Defines the color of the destination 27 button
+eParamID_XPT_Destination27_Exclude: description missing
+eParamID_XPT_Destination28_Status: The value of this parameter defines which source is connected to destination 28
+eParamID_XPT_Destination28_Locked: Defines whether destination 28 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination28_Line_1: Defines the text that appears on the top line of the destination 28 button
+eParamID_XPT_Destination28_Line_2: Defines the text that appears on the bottom line of the destination 28 button
+eParamID_XPT_Destination28_ButtonColor: Defines the color of the destination 28 button
+eParamID_XPT_Destination28_Exclude: description missing
+eParamID_XPT_Destination29_Status: The value of this parameter defines which source is connected to destination 29
+eParamID_XPT_Destination29_Locked: Defines whether destination 29 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination29_Line_1: Defines the text that appears on the top line of the destination 29 button
+eParamID_XPT_Destination29_Line_2: Defines the text that appears on the bottom line of the destination 29 button
+eParamID_XPT_Destination29_ButtonColor: Defines the color of the destination 29 button
+eParamID_XPT_Destination29_Exclude: description missing
+eParamID_XPT_Destination30_Status: The value of this parameter defines which source is connected to destination 30
+eParamID_XPT_Destination30_Locked: Defines whether destination 30 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination30_Line_1: Defines the text that appears on the top line of the destination 30 button
+eParamID_XPT_Destination30_Line_2: Defines the text that appears on the bottom line of the destination 30 button
+eParamID_XPT_Destination30_ButtonColor: Defines the color of the destination 30 button
+eParamID_XPT_Destination30_Exclude: description missing
+eParamID_XPT_Destination31_Status: The value of this parameter defines which source is connected to destination 31
+eParamID_XPT_Destination31_Locked: Defines whether destination 31 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination31_Line_1: Defines the text that appears on the top line of the destination 31 button
+eParamID_XPT_Destination31_Line_2: Defines the text that appears on the bottom line of the destination 31 button
+eParamID_XPT_Destination31_ButtonColor: Defines the color of the destination 31 button
+eParamID_XPT_Destination31_Exclude: description missing
+eParamID_XPT_Destination32_Status: The value of this parameter defines which source is connected to destination 32
+eParamID_XPT_Destination32_Locked: Defines whether destination 32 is locked or not (0 = unlocked, 1 = locked)
+eParamID_XPT_Destination32_Line_1: Defines the text that appears on the top line of the destination 32 button
+eParamID_XPT_Destination32_Line_2: Defines the text that appears on the bottom line of the destination 32 button
+eParamID_XPT_Destination32_ButtonColor: Defines the color of the destination 32 button
+eParamID_XPT_Destination32_Exclude: description missing
+eParamID_XPT_Source1_Status: description missing
+eParamID_XPT_Source1_Line_1: Defines the text that appears on the top line of the source 1 button
+eParamID_XPT_Source1_Line_2: Defines the text that appears on the bottom line of the source 1 button
+eParamID_XPT_Source1_ButtonColor: Defines the color of the source 1 button
+eParamID_Button_Settings_1: description missing
+eParamID_XPT_Source2_Status: description missing
+eParamID_XPT_Source2_Line_1: Defines the text that appears on the top line of the source 2 button
+eParamID_XPT_Source2_Line_2: Defines the text that appears on the bottom line of the source 2 button
+eParamID_XPT_Source2_ButtonColor: Defines the color of the source 2 button
+eParamID_Button_Settings_2: description missing
+eParamID_XPT_Source3_Status: description missing
+eParamID_XPT_Source3_Line_1: Defines the text that appears on the top line of the source 3 button
+eParamID_XPT_Source3_Line_2: Defines the text that appears on the bottom line of the source 3 button
+eParamID_XPT_Source3_ButtonColor: Defines the color of the source 3 button
+eParamID_Button_Settings_3: description missing
+eParamID_XPT_Source4_Status: description missing
+eParamID_XPT_Source4_Line_1: Defines the text that appears on the top line of the source 4 button
+eParamID_XPT_Source4_Line_2: Defines the text that appears on the bottom line of the source 4 button
+eParamID_XPT_Source4_ButtonColor: Defines the color of the source 4 button
+eParamID_Button_Settings_4: description missing
+eParamID_XPT_Source5_Status: description missing
+eParamID_XPT_Source5_Line_1: Defines the text that appears on the top line of the source 5 button
+eParamID_XPT_Source5_Line_2: Defines the text that appears on the bottom line of the source 5 button
+eParamID_XPT_Source5_ButtonColor: Defines the color of the source 5 button
+eParamID_Button_Settings_5: description missing
+eParamID_XPT_Source6_Status: description missing
+eParamID_XPT_Source6_Line_1: Defines the text that appears on the top line of the source 6 button
+eParamID_XPT_Source6_Line_2: Defines the text that appears on the bottom line of the source 6 button
+eParamID_XPT_Source6_ButtonColor: Defines the color of the source 6 button
+eParamID_Button_Settings_6: description missing
+eParamID_XPT_Source7_Status: description missing
+eParamID_XPT_Source7_Line_1: Defines the text that appears on the top line of the source 7 button
+eParamID_XPT_Source7_Line_2: Defines the text that appears on the bottom line of the source 7 button
+eParamID_XPT_Source7_ButtonColor: Defines the color of the source 7 button
+eParamID_Button_Settings_7: description missing
+eParamID_XPT_Source8_Status: description missing
+eParamID_XPT_Source8_Line_1: Defines the text that appears on the top line of the source 8 button
+eParamID_XPT_Source8_Line_2: Defines the text that appears on the bottom line of the source 8 button
+eParamID_XPT_Source8_ButtonColor: Defines the color of the source 8 button
+eParamID_Button_Settings_8: description missing
+eParamID_XPT_Source9_Status: description missing
+eParamID_XPT_Source9_Line_1: Defines the text that appears on the top line of the source 9 button
+eParamID_XPT_Source9_Line_2: Defines the text that appears on the bottom line of the source 9 button
+eParamID_XPT_Source9_ButtonColor: Defines the color of the source 9 button
+eParamID_Button_Settings_9: description missing
+eParamID_XPT_Source10_Status: description missing
+eParamID_XPT_Source10_Line_1: Defines the text that appears on the top line of the source 10 button
+eParamID_XPT_Source10_Line_2: Defines the text that appears on the bottom line of the source 10 button
+eParamID_XPT_Source10_ButtonColor: Defines the color of the source 10 button
+eParamID_Button_Settings_10: description missing
+eParamID_XPT_Source11_Status: description missing
+eParamID_XPT_Source11_Line_1: Defines the text that appears on the top line of the source 11 button
+eParamID_XPT_Source11_Line_2: Defines the text that appears on the bottom line of the source 11 button
+eParamID_XPT_Source11_ButtonColor: Defines the color of the source 11 button
+eParamID_Button_Settings_11: description missing
+eParamID_XPT_Source12_Status: description missing
+eParamID_XPT_Source12_Line_1: Defines the text that appears on the top line of the source 12 button
+eParamID_XPT_Source12_Line_2: Defines the text that appears on the bottom line of the source 12 button
+eParamID_XPT_Source12_ButtonColor: Defines the color of the source 12 button
+eParamID_Button_Settings_12: description missing
+eParamID_XPT_Source13_Status: description missing
+eParamID_XPT_Source13_Line_1: Defines the text that appears on the top line of the source 13 button
+eParamID_XPT_Source13_Line_2: Defines the text that appears on the bottom line of the source 13 button
+eParamID_XPT_Source13_ButtonColor: Defines the color of the source 13 button
+eParamID_Button_Settings_13: description missing
+eParamID_XPT_Source14_Status: description missing
+eParamID_XPT_Source14_Line_1: Defines the text that appears on the top line of the source 14 button
+eParamID_XPT_Source14_Line_2: Defines the text that appears on the bottom line of the source 14 button
+eParamID_XPT_Source14_ButtonColor: Defines the color of the source 14 button
+eParamID_Button_Settings_14: description missing
+eParamID_XPT_Source15_Status: description missing
+eParamID_XPT_Source15_Line_1: Defines the text that appears on the top line of the source 15 button
+eParamID_XPT_Source15_Line_2: Defines the text that appears on the bottom line of the source 15 button
+eParamID_XPT_Source15_ButtonColor: Defines the color of the source 15 button
+eParamID_Button_Settings_15: description missing
+eParamID_XPT_Source16_Status: description missing
+eParamID_XPT_Source16_Line_1: Defines the text that appears on the top line of the source 16 button
+eParamID_XPT_Source16_Line_2: Defines the text that appears on the bottom line of the source 16 button
+eParamID_XPT_Source16_ButtonColor: Defines the color of the source 16 button
+eParamID_Button_Settings_16: description missing
+eParamID_XPT_Source17_Status: description missing
+eParamID_XPT_Source17_Line_1: Defines the text that appears on the top line of the source 17 button
+eParamID_XPT_Source17_Line_2: Defines the text that appears on the bottom line of the source 17 button
+eParamID_XPT_Source17_ButtonColor: Defines the color of the source 17 button
+eParamID_Button_Settings_17: description missing
+eParamID_XPT_Source18_Status: description missing
+eParamID_XPT_Source18_Line_1: Defines the text that appears on the top line of the source 18 button
+eParamID_XPT_Source18_Line_2: Defines the text that appears on the bottom line of the source 18 button
+eParamID_XPT_Source18_ButtonColor: Defines the color of the source 18 button
+eParamID_Button_Settings_18: description missing
+eParamID_XPT_Source19_Status: description missing
+eParamID_XPT_Source19_Line_1: Defines the text that appears on the top line of the source 19 button
+eParamID_XPT_Source19_Line_2: Defines the text that appears on the bottom line of the source 19 button
+eParamID_XPT_Source19_ButtonColor: Defines the color of the source 19 button
+eParamID_Button_Settings_19: description missing
+eParamID_XPT_Source20_Status: description missing
+eParamID_XPT_Source20_Line_1: Defines the text that appears on the top line of the source 20 button
+eParamID_XPT_Source20_Line_2: Defines the text that appears on the bottom line of the source 20 button
+eParamID_XPT_Source20_ButtonColor: Defines the color of the source 20 button
+eParamID_Button_Settings_20: description missing
+eParamID_XPT_Source21_Status: description missing
+eParamID_XPT_Source21_Line_1: Defines the text that appears on the top line of the source 21 button
+eParamID_XPT_Source21_Line_2: Defines the text that appears on the bottom line of the source 21 button
+eParamID_XPT_Source21_ButtonColor: Defines the color of the source 21 button
+eParamID_Button_Settings_21: description missing
+eParamID_XPT_Source22_Status: description missing
+eParamID_XPT_Source22_Line_1: Defines the text that appears on the top line of the source 22 button
+eParamID_XPT_Source22_Line_2: Defines the text that appears on the bottom line of the source 22 button
+eParamID_XPT_Source22_ButtonColor: Defines the color of the source 22 button
+eParamID_Button_Settings_22: description missing
+eParamID_XPT_Source23_Status: description missing
+eParamID_XPT_Source23_Line_1: Defines the text that appears on the top line of the source 23 button
+eParamID_XPT_Source23_Line_2: Defines the text that appears on the bottom line of the source 23 button
+eParamID_XPT_Source23_ButtonColor: Defines the color of the source 23 button
+eParamID_Button_Settings_23: description missing
+eParamID_XPT_Source24_Status: description missing
+eParamID_XPT_Source24_Line_1: Defines the text that appears on the top line of the source 24 button
+eParamID_XPT_Source24_Line_2: Defines the text that appears on the bottom line of the source 24 button
+eParamID_XPT_Source24_ButtonColor: Defines the color of the source 24 button
+eParamID_Button_Settings_24: description missing
+eParamID_XPT_Source25_Status: description missing
+eParamID_XPT_Source25_Line_1: Defines the text that appears on the top line of the source 25 button
+eParamID_XPT_Source25_Line_2: Defines the text that appears on the bottom line of the source 25 button
+eParamID_XPT_Source25_ButtonColor: Defines the color of the source 25 button
+eParamID_Button_Settings_25: description missing
+eParamID_XPT_Source26_Status: description missing
+eParamID_XPT_Source26_Line_1: Defines the text that appears on the top line of the source 26 button
+eParamID_XPT_Source26_Line_2: Defines the text that appears on the bottom line of the source 26 button
+eParamID_XPT_Source26_ButtonColor: Defines the color of the source 26 button
+eParamID_Button_Settings_26: description missing
+eParamID_XPT_Source27_Status: description missing
+eParamID_XPT_Source27_Line_1: Defines the text that appears on the top line of the source 27 button
+eParamID_XPT_Source27_Line_2: Defines the text that appears on the bottom line of the source 27 button
+eParamID_XPT_Source27_ButtonColor: Defines the color of the source 27 button
+eParamID_Button_Settings_27: description missing
+eParamID_XPT_Source28_Status: description missing
+eParamID_XPT_Source28_Line_1: Defines the text that appears on the top line of the source 28 button
+eParamID_XPT_Source28_Line_2: Defines the text that appears on the bottom line of the source 28 button
+eParamID_XPT_Source28_ButtonColor: Defines the color of the source 28 button
+eParamID_Button_Settings_28: description missing
+eParamID_XPT_Source29_Status: description missing
+eParamID_XPT_Source29_Line_1: Defines the text that appears on the top line of the source 29 button
+eParamID_XPT_Source29_Line_2: Defines the text that appears on the bottom line of the source 29 button
+eParamID_XPT_Source29_ButtonColor: Defines the color of the source 29 button
+eParamID_Button_Settings_29: description missing
+eParamID_XPT_Source30_Status: description missing
+eParamID_XPT_Source30_Line_1: Defines the text that appears on the top line of the source 30 button
+eParamID_XPT_Source30_Line_2: Defines the text that appears on the bottom line of the source 30 button
+eParamID_XPT_Source30_ButtonColor: Defines the color of the source 30 button
+eParamID_Button_Settings_30: description missing
+eParamID_XPT_Source31_Status: description missing
+eParamID_XPT_Source31_Line_1: Defines the text that appears on the top line of the source 31 button
+eParamID_XPT_Source31_Line_2: Defines the text that appears on the bottom line of the source 31 button
+eParamID_XPT_Source31_ButtonColor: Defines the color of the source 31 button
+eParamID_Button_Settings_31: description missing
+eParamID_XPT_Source32_Status: description missing
+eParamID_XPT_Source32_Line_1: Defines the text that appears on the top line of the source 32 button
+eParamID_XPT_Source32_Line_2: Defines the text that appears on the bottom line of the source 32 button
+eParamID_XPT_Source32_ButtonColor: Defines the color of the source 32 button
+eParamID_Button_Settings_32: description missing
+eParamID_Button_Settings_33: description missing
+eParamID_Button_Settings_34: description missing
+eParamID_Button_Settings_35: description missing
+eParamID_Button_Settings_36: description missing
+eParamID_Button_Settings_37: description missing
+eParamID_Button_Settings_38: description missing
+eParamID_Button_Settings_39: description missing
+eParamID_Button_Settings_40: description missing
+eParamID_Button_Settings_41: description missing
+eParamID_Button_Settings_42: description missing
+eParamID_Button_Settings_43: description missing
+eParamID_Button_Settings_44: description missing
+eParamID_Button_Settings_45: description missing
+eParamID_Button_Settings_46: description missing
+eParamID_Button_Settings_47: description missing
+eParamID_Button_Settings_48: description missing
+eParamID_Button_Settings_49: description missing
+eParamID_Button_Settings_50: description missing
+eParamID_Button_Settings_51: description missing
+eParamID_Button_Settings_52: description missing
+eParamID_Button_Settings_53: description missing
+eParamID_Button_Settings_54: description missing
+eParamID_Button_Settings_55: description missing
+eParamID_Button_Settings_56: description missing
+eParamID_Button_Settings_57: description missing
+eParamID_Button_Settings_58: description missing
+eParamID_Button_Settings_59: description missing
+eParamID_Button_Settings_60: description missing
+eParamID_Button_Settings_61: description missing
+eParamID_Button_Settings_62: description missing
+eParamID_Button_Settings_63: description missing
+eParamID_Button_Settings_64: description missing
+eParamID_Control_Panel_Mode: description missing
+eParamID_KumoProductID: The product id of this KUMO unit
+eParamID_NumberOfSources: Defines the number of sources
+eParamID_NumberOfDestinations: Defines the number of destinations
+eParamID_LastSelectedDestination: description missing
+eParamID_LastSelectedDestination_Matrix1: description missing
+eParamID_LastSelectedDestination_Matrix2: description missing
+eParamID_LastSelectedDestination_Matrix3: description missing
+eParamID_LastSelectedDestination_Matrix4: description missing
+eParamID_LastSelectedMatrix: description missing
+eParamID_PanelLocked: description missing
+eParamID_AutoconfigEnabled: Defines whether or not the network autoconfig is enabled
+eParamID_LastPairedMatrix: Stores the last paired matrix
+eParamID_LastSelectedDestinationBank1: description missing
+eParamID_LastSelectedDestinationBank1_Matrix1: description missing
+eParamID_LastSelectedDestinationBank1_Matrix2: description missing
+eParamID_LastSelectedDestinationBank1_Matrix3: description missing
+eParamID_LastSelectedDestinationBank1_Matrix4: description missing
+eParamID_LastSelectedDestinationBank2: description missing
+eParamID_LastSelectedDestinationBank2_Matrix1: description missing
+eParamID_LastSelectedDestinationBank2_Matrix2: description missing
+eParamID_LastSelectedDestinationBank2_Matrix3: description missing
+eParamID_LastSelectedDestinationBank2_Matrix4: description missing
+eParamID_SignalSwitching: Defines the signal switching mode
+eParamID_Matrix_Level1: description missing
+eParamID_Matrix_Level2: description missing
+eParamID_Matrix_Level3: description missing
+eParamID_Matrix_Level4: description missing
+eParamID_IPConfig: description missing
+eParamID_IPAddress: description missing
+eParamID_IPAddress_1: description missing
+eParamID_IPAddress_2: description missing
+eParamID_IPAddress_3: description missing
+eParamID_SubnetMask: description missing
+eParamID_SubnetMask_1: description missing
+eParamID_SubnetMask_2: description missing
+eParamID_SubnetMask_3: description missing
+eParamID_DefaultGateway: description missing
+eParamID_DefaultGateway_1: description missing
+eParamID_DefaultGateway_2: description missing
+eParamID_DefaultGateway_3: description missing
+eParamID_SysName: description missing
+eParamID_MACAddress: description missing
+eParamID_EmergencyIPAddress: description missing
+eParamID_SuppressPSAlarm: description missing
+eParamID_SuppressReferenceAlarm: description missing
+eParamID_SuppressTemperatureAlarm: description missing
+eParamID_TemperatureAlarmSetpoint: description missing
+eParamID_DisplayIntensity: description missing
+eParamID_HighTallyIntensity: description missing
+eParamID_LowTallyIntensity: description missing
+eParamID_PSLEDIntensity: description missing
+eParamID_SWVersion: description missing
+eParamID_SafebootMode: description missing
+eParamID_SerialNumber: description missing
+eParamID_FactorySettings: description missing
+eParamID_LED_Identify: description missing
+eParamID_AlarmLed: description missing
+eParamID_IdentifyLed: description missing
+eParamID_DetectReferenceFormat: description missing
+eParamID_Temperature: description missing
+eParamID_PSAlarm: description missing
+eParamID_ReferenceAlarm: description missing
+eParamID_TemperatureAlarm: description missing
+eParamID_LastSelectedConfigParam: description missing
