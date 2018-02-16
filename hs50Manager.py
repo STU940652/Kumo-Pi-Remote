@@ -29,7 +29,7 @@ class HS50 ():
                 traceback.print_exc()
                 self.socket = None
                 self.online=False
-                
+
         # Start a timer to get latest setting from HS50
         # self.timer = wx.Timer(self)
         # self.Bind(wx.EVT_TIMER, self.OnTimer, self.timer)
@@ -38,10 +38,10 @@ class HS50 ():
     def OnDestroy (self, evt):
         # Cleanup Timer
         self.timer.Stop()
-        
+
         # Let the event pass
         evt.Skip()
-        
+
     def OnTimer (self, evt):
         self.message = b''
         try:
@@ -49,7 +49,7 @@ class HS50 ():
                 self.message = self.socket.recv(200)
         except:
             pass
-            
+
         # See if there are any incoming messages
         if len(self.message):
             #print (self.message)
@@ -57,13 +57,13 @@ class HS50 ():
             r = re.search(STX + b"ABSC:([0-9]{2}):([0-9]{2}):([0-9]{1})" + ETX + b"(.*)", self.message)
             if r:
                 bus, material, tally, self.message = r.groups()
-                
+
                 # Which radio button do we need to update?
                 bus_radio = None
                 if bus == b"02":
                     pass
                     # TODO
-                    
+
         # Send the next request
         # b"02" = PGM
         c = STX + b"QBSC:" + b"02" + ETX
@@ -72,4 +72,4 @@ class HS50 ():
                 self.socket.sendall(c)
         except:
             pass
-        
+
