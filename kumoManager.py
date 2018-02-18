@@ -41,4 +41,4 @@ class kumoManager (kumo.Client):
 
     def getChannel (self, destination):
         if self.online:
-            return int(self.getParameter('eParamID_XPT_Destination%i_Status' % (i))[1])
+            return int(self.getParameter('eParamID_XPT_Destination%i_Status' % (destination))[1])

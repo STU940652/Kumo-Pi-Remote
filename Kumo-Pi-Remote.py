@@ -2,6 +2,7 @@
 
 import RPi.GPIO as GPIO
 import time
+import sys
 from kumoManager import kumoManager
 
 BUTTON_IN = [5, 10, 27, 3]
@@ -21,7 +22,7 @@ kumo_sources = {
 
 kumo_dest = 4    # Switcher Channel 4
 
-kumo_ip = "10.70.58.25"
+kumo_ip = "http://10.70.58.25"
 
 kumo_manager = None
 
@@ -39,7 +40,9 @@ def button_callback(button, e = None):
         if not GPIO.input(BUTTON_IN[i]):
             button_value += 2**i
             button_count += 1
-
+    if (button_value == 0x0F):
+        set_led(0)
+        sys.exit()
     if (button_count):
         if (button_value in kumo_sources):
             set_led(button_value)
