@@ -3,6 +3,7 @@
 import RPi.GPIO as GPIO
 import time
 import sys
+import traceback
 from kumoManager import kumoManager
 
 BUTTON_IN = [5, 10, 27, 3]
@@ -33,24 +34,27 @@ def set_led(v):
         GPIO.output(LED_OUT[i], not (v & 2**i))
 
 def button_callback(button, e = None):
-    time.sleep(0.100)
-    button_value = 0
-    button_count = 0
-    for i in range(len(BUTTON_IN)):
-        if not GPIO.input(BUTTON_IN[i]):
-            button_value += 2**i
-            button_count += 1
-    if (button_value == 0x0F):
-        set_led(0)
-        sys.exit()
-    if (button_count):
-        if (button_value in kumo_sources):
-            set_led(button_value)
-            kumo_drop_next = True
-            if DEBUG: print (kumo_sources[button_value])
-            if kumo_manager:
-                kumo_manager.setChannel(kumo_dest, kumo_sources[button_value])
+    try:
+        time.sleep(0.100)
+        button_value = 0
+        button_count = 0
+        for i in range(len(BUTTON_IN)):
+            if not GPIO.input(BUTTON_IN[i]):
+                button_value += 2**i
+                button_count += 1
+        if (button_value == 0x0F):
+            set_led(0)
+            sys.exit()
+        if (button_count):
+            if (button_value in kumo_sources):
+                set_led(button_value)
+                kumo_drop_next = True
+                if DEBUG: print (kumo_sources[button_value])
+                if kumo_manager:
+                    kumo_manager.setChannel(kumo_dest, kumo_sources[button_value])
 
+    except:
+        traceback.print_exc()
 
 # Use BCM pin numbering convention
 GPIO.setmode(GPIO.BCM)
